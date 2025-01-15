@@ -31,7 +31,7 @@ Follow these steps to get the project up and running locally:
 
 
 
-##API Endpoints
+## API Endpoints
 POST /url
 Create a new short URL.
 
@@ -59,7 +59,7 @@ This will redirect you to the original URL associated with the shortId sp9BBNT48
 Response
 Redirects to the original URL.
 
-##Postman / Thunder Client Example
+## Postman / Thunder Client Example
 POST Request to create a short URL:
 Method: POST
 
@@ -88,14 +88,14 @@ Example: http://localhost:8001/sp9BBNT48
 
 This will redirect you to the original URL.
 
-##Error Handling
+## Error Handling
 404 Not Found: If the short URL does not exist.
 400 Bad Request: If the URL is not provided in the POST request or the redirect URL is not available.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contributing
+## Contributing
 Feel free to fork this project, make improvements, and submit a pull request.
 
 
